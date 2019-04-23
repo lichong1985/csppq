@@ -1,0 +1,61 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,sp_json,h_png,power_png,pz_mp3,rh_mp3,bs_mp3,bshen_mp3,bg_mp3,sl_mp3",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "sp_json",
+			"type": "sheet",
+			"url": "fk/sp.json",
+			"subkeys": "bgb,bgh,bsl,cha_k,cha,gk,gkwc,jdt,jiantou,ks,ling_k,ling,liubian_k,liubian,play,qipao,s-number-0,s-number-1,s-number-2,s-number-3,s-number-4,s-number-5,s-number-6,s-number-7,s-number-8,s-number-9,sanjiao_k,sanjiao,shizi_k,shizi,shuidi_k,shuidi,tap,tuo,wujiao_k,wujiao,xiesanjiao_k,xiesanjiao,yizi,youxiesanjiao_k,youxiesanjiao,yuan_k,yuan,zhengfang_k,zhengfang,zhongdian"
+		},
+		{
+			"name": "h_png",
+			"type": "image",
+			"url": "fk/h.png"
+		},
+		{
+			"name": "power_png",
+			"type": "image",
+			"url": "fk/power.png"
+		},
+		{
+			"name": "pz_mp3",
+			"type": "sound",
+			"url": "fk/pz.mp3"
+		},
+		{
+			"name": "rh_mp3",
+			"type": "sound",
+			"url": "fk/rh.mp3"
+		},
+		{
+			"name": "bs_mp3",
+			"type": "sound",
+			"url": "fk/bs.mp3"
+		},
+		{
+			"name": "bshen_mp3",
+			"type": "sound",
+			"url": "fk/bshen.mp3"
+		},
+		{
+			"name": "bg_mp3",
+			"type": "sound",
+			"url": "fk/bg.mp3"
+		},
+		{
+			"name": "sl_mp3",
+			"type": "sound",
+			"url": "fk/sl.mp3"
+		}
+	]
+}
